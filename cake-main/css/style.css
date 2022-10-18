@@ -110,23 +110,23 @@ ol {
   margin-bottom: 35px;
 }
 .section-title span {
-  padding-left: 60px;
-  color: #000000;
+  color: #0B0B0B;
+  width: 177px;
   font-size: 20px;
-  font-weight: 600;
-  letter-spacing: 4px;
-  display: block;
-  margin-bottom: 10px;
+  font-weight: 600px;
 }
 .section-title h2 {
-  padding-left: 90px;
+  width: 291px;
+  height: 85px;
   font-size: 46px;
   color: #07125b;
+  opacity: 1;
   line-height: 60px;
   font-weight: 700;
   font-style: italic;
   font-family: "Playfair Display", serif;
 }
+
 
 .set-bg {
   background-repeat: no-repeat;
@@ -160,7 +160,7 @@ ol {
   text-transform: uppercase;
   padding: 14px 30px;
   color: #ffffff;
-  background: #f08632;
+  background: #07125b;
   letter-spacing: 2px;
 }
 
@@ -928,7 +928,7 @@ ol {
   Instagram
 -----------------------*/
 .instagram__text {
-  padding-top: 90px;
+  padding-top: 45px;
 }
 .instagram__text .section-title {
   margin-bottom: 55px;
@@ -969,6 +969,27 @@ ol {
 .instagram__pic img {
   min-width: 100%;
 }
+.instagram__text span{
+  color: #0B0B0B;
+  width: 107px;
+  height: 21px;
+  font: normal normal normal 15px/23px Poppins;
+  letter-spacing: 4.5px;
+  color: #0B0B0B;
+  opacity: 1;
+  text-transform: uppercase;
+}
+/* .instagram__text p{
+  width: 532px;
+  height: 133px;
+  text-align: left;
+   font: normal normal normal 16px/32px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  padding-bottom: 90px;
+} */
+
 
 /*---------------------
   Map
@@ -4100,33 +4121,25 @@ ol {
 }
 .section{
   background: #07125b;
-  top: 1873px;
-  left: 0px;
-  width: 1600px;
   height: 280px;
   opacity: 1;
 }
 .section_text h2{
-  padding-top: 40px;
-  left: 268px;
-  width: 160px;
+  padding-top: 70px;
+  width: 270px;
   height: 36px;
   text-align: center;
   font:  Poppins;
-  letter-spacing: -1.04px;
   color: #ffffff;
   opacity: 1;
   font-size: 26px;
 }
 .section_text p{
-  padding-top: 90px;
-  top: 2024px;
-  left: 221px;
+  padding-top: 60px;
   width: 264px;
   height: 23px;
   text-align: center;
   font: Poppins;
-  letter-spacing: 0px;
   color: #FFFFFF;
   opacity: 1;
 }
@@ -4142,3 +4155,47 @@ ol {
   height: 400px;
   opacity: 1;
 }
+.carosuel__item{
+  width: 225px;
+  height: 325px;
+  opacity: 1;
+  border-radius: 3px;
+  top: 40px;
+}
+.aut{
+  background: #F9F9F9;
+}
+.product{
+  text-align: center;
+}
+.product h5{
+ height: 33px;
+ text-align: center;
+ font: normal normal 300 24px/86px Poppins;
+ color: #000000;
+ text-transform: uppercase;
+ opacity: 1;
+ right: 60px;
+ padding-right: 80px;
+ margin-bottom: 10px;
+}
+.product h2{
+  height: 68px;
+  text-align: center;
+  font: normal normal normal 49px/87px Poppins;
+  letter-spacing: -1.96px;
+  color: #07125B;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-bottom: 10px;
+}
+.product p{
+ height: 25px;
+ text-align: center;
+ font: normal normal normal 18px/25px Poppins;
+ letter-spacing: 0.36px;
+ color: #000000;
+ opacity: 1;
+ margin-bottom: 30px;
+}
+
