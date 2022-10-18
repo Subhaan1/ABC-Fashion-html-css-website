@@ -797,11 +797,17 @@ ol {
 }
 
 .team__item {
-  height: 360px;
+  height: 355px;
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
 }
+/* .team__item1 {
+  height: 301px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+} */
 .team__item:hover .team__item__text {
   opacity: 1;
   bottom: 0;
@@ -1328,19 +1334,19 @@ ol {
 /*---------------------
   Breadcrumb
 -----------------------*/
-.breadcrumb-option {
+/* .breadcrumb-option {
   padding-top: 60px;
-}
+} */
 
-.breadcrumb__text h2 {
+/* .breadcrumb__text h2 {
   font-size: 50px;
   color: #000000;
   font-weight: 700;
   font-style: italic;
   font-family: "Playfair Display", serif;
-}
+} */
 
-.breadcrumb__links {
+/* .breadcrumb__links {
   text-align: right;
   padding-top: 15px;
 }
@@ -1362,7 +1368,7 @@ ol {
   font-size: 16px;
   color: #888888;
   display: inline-block;
-}
+} */
 
 /*---------------------
   About
@@ -3145,7 +3151,7 @@ ol {
   text-align: left;
   font: normal normal 600 22px/33px Poppins;
   letter-spacing: 0px;
-  color: #07125B;
+  color: #bb17db;
   opacity: 1;
 } */
 
@@ -4198,4 +4204,81 @@ ol {
  opacity: 1;
  margin-bottom: 30px;
 }
+.about-welcome{
+  text-align: center;
+}
+.about-welsty h2{
+  text-align: center;
+  height: 85px;
+  font: normal normal 300 70px/85px Cormorant;
+  letter-spacing: 0px;
+  color: #07125B;
+  opacity: 1;
+}
+.about-welsty p{
+  text-align: center;
+  height: 53px;
+  font: normal normal normal 16px/30px Poppins;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.about-section{
+  background: #F9F9F9;
+  height: 1050px;
+}
+.about__text img{
+  height: 1000px;
+  padding-top: 100px;
+}
+.about-content h2{
+  height: 48px;
+  text-align: left;
+  font: normal normal medium 40px/48px Cormorant;
+  letter-spacing: 0px;
+  color: #07125B;
+  opacity: 1;
+  padding-top: 100px;
+  size: 40px;
+}
+.about-content p{
+  text-align: left;
+font: normal normal normal 16px/30px Poppins;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+padding-top: 40px;
+}
+.about__item ul li p {
+  font-size: 14px;
+  color: #07125b;
+  line-height: 26px;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+.about__item ul li {
+  list-style: none;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.about__item ul li span {
+  font-size: 24px;
+  color: #07125b;
+  margin-right: 25px;
+  float: left;
+}
+.about__item img{
+  /* height: 52px; */
+}
+.title h2 {
+  text-align: center;
+  color: #07125b;
+  opacity: 1;
+  font-style: italic;
+  font: normal normal 300 70px/85px Cormorant;
+}
+.title p{
+  text-align: center;
+}
+
 
