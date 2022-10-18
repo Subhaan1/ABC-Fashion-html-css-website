@@ -1778,21 +1778,22 @@ ol {
   padding-top: 80px;
   padding-bottom: 40px;
 }
-
-.related__products__slider.owl-carousel .col-lg-3 {
+.caro_row{ padding-left: 50px;}
+.new__products__slider.owl-carousel .col-lg-4 {
   max-width: 100%;
 }
-.related__products__slider.owl-carousel .owl-nav button {
+.new__products__slider.owl-carousel .owl-nav button {
   font-size: 30px;
   color: #888888;
   position: absolute;
   left: -44px;
   top: 28%;
 }
-.related__products__slider.owl-carousel .owl-nav button.owl-next {
+.new__products__slider.owl-carousel .owl-nav button.owl-next {
   left: auto;
   right: -44px;
 }
+
 
 /*---------------------
   Shopping Cart
@@ -3259,6 +3260,23 @@ ol {
     right: -15px;
   }
 
+
+  .new__products__slider.owl-carousel .owl-nav button {
+    left: -15px;
+  }
+  .new__products__slider.owl-carousel .owl-nav button {
+    font-size: 30px;
+    color: #888888;
+    position: absolute;
+    left: -15px;
+    top: 28%;
+  }
+
+  .new__products__slider.owl-carousel .owl-nav button.owl-next {
+    right: -15px;
+  }
+
+
   .footer__widget:after {
     right: 0px;
   }
@@ -3280,7 +3298,6 @@ ol {
   .header__menu ul li a {
     padding: 20px 28px 18px;
   }
-
   .header__top__left ul li {
     margin-right: 20px;
   }
@@ -3387,6 +3404,13 @@ ol {
   }
 
   .related__products__slider.owl-carousel .owl-nav button.owl-next {
+    right: -20px;
+  }
+  .new__products__slider.owl-carousel .owl-nav button {
+    left: -20px;
+  }
+
+  .new__products__slider.owl-carousel .owl-nav button.owl-next {
     right: -20px;
   }
 
@@ -3779,15 +3803,24 @@ ol {
     left: 0;
     bottom: 0;
   }
+  .new__products__slider.owl-carousel .owl-nav {
+    max-width:90%;
+    text-align: center;
+  }
 
+  .new__products__slider.owl-carousel .owl-nav button {
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
   .shopping__cart__table {
     overflow-x: auto;
   }
+.caro_row{padding-left: 10px; padding-right: 10px;}
 
-  .related__products__slider.owl-carousel .owl-nav button.owl-next {
+  .new__products__slider.owl-carousel .owl-nav button.owl-next {
     left: 5px;
   }
-
   .shopping__cart__table table tbody tr td.product__cart__item .product__cart__item__pic {
     float: none;
     margin-right: 0;
@@ -4127,12 +4160,10 @@ ol {
 }
 .section{
   background: #07125b;
-  height: 280px;
   opacity: 1;
+  padding-bottom: 50px;
 }
 .section_text h2{
-  padding-top: 70px;
-  width: 270px;
   height: 36px;
   text-align: center;
   font:  Poppins;
@@ -4141,8 +4172,6 @@ ol {
   font-size: 26px;
 }
 .section_text p{
-  padding-top: 60px;
-  width: 264px;
   height: 23px;
   text-align: center;
   font: Poppins;

@@ -157,7 +157,34 @@
             },
         }
     });
-
+ /*---------------------------------
+        New Products Slider
+    ----------------------------------*/
+    $(".new__products__slider").owlCarousel({
+        loop: true,
+        margin: 0,
+        items: 3,
+        dots: false,
+        nav: true,
+        navText: ["<span class='arrow_carrot-left'><span/>", "<span class='arrow_carrot-right'><span/>"],
+        smartSpeed: 1200,
+        autoHeight: false,
+        autoplay: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            480: {
+                items: 1
+            },
+            768: {
+                items: 2
+            },
+            992: {
+                items: 3
+            },
+        }
+    });
     /*--------------------------
         Select
     ----------------------------*/
